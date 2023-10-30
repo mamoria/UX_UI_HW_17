@@ -68,8 +68,11 @@ nav a {
 }
 
 nav a:hover {
+  outline-offset: 0px;
   color: #ee7f00;
-  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  border-bottom: 0 #000;
+  outline: 3px #000;
 }
 
 
@@ -247,7 +250,8 @@ h2 {
 }
 
 .card:hover {
-  border: 1px solid #4b5563;
+  border: 0 solid #000;
+  outline: 1px solid #4b5563;
   background-color: rgba(237, 237, 237, 0.66);
 }
 
