@@ -37,7 +37,8 @@ body {
   -webkit-text-stroke-width: 1px;
   border-bottom: 0 #000;
   outline: 3px #000;
-  padding-right: 24px;
+  padding-right: 26px;
+  padding-left: 26px;
 }
 
 
